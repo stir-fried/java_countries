@@ -1,10 +1,8 @@
-public class country
-{
+public class country {
     private String name;
     private String capital;
     private String language;
     private String image;
-
 
     public country(String name, String capital, String language, String image) {
         this.name = name;
@@ -17,32 +15,18 @@ public class country
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getCapital() {
         return capital;
-    }
-
-    public void setCapital(String capital) {
-        this.capital = capital;
     }
 
     public String getLanguage() {
         return language;
     }
 
-    public void setLanguage(String language) {
-        this.language = language;
-    }
-
     public String getImage() {
         return image;
     }
 
-    public void setImage(String image) {
-        this.image = image;
-    }
 
 }
